@@ -1,0 +1,7 @@
+<?php
+
+    class ErroControler{
+        public function index(){
+            echo 'Pagina de Erro';
+        }
+    }

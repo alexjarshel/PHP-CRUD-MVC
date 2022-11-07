@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <body>
+        <style type="text/css">
+            *{
+                margin: 0; 
+                padding: 0;
+            }
+
+            body{
+                background-color: rgb(19, 119, 133);
+            }
+
+            #corpo{
+                width: 1000px;
+                background-color: #fff;
+                margin: 0 auto;
+                border-left: 2px solid #ccc;
+                border-right: 2px solid #ccc;
+            }
+            #topo{
+                  padding: 20px 25px;
+                  border-bottom: 2px solid #ccc;  
+                }
+            #topo a{
+                color: #333;
+                text-decoration: none;
+                font: 20px arial;
+            }
+            #topo a:hover{text-decoration: underline;
+            }
+
+            #conteudo{background-color: #fff; padding: 20px 25px;}
+            #conteudo article{
+                margin-bottom: 20px;
+            }
+            article h2 a{
+                font: 22px arial; color: #333;
+                text-decoration: none;
+                margin-bottom:17px;
+            }
+            article h2 a:hover{text-decoration: underline;}
+            article p{font: 16px arial; color: #333; padding-left: 2px;}
+            article h2{
+                padding-bottom: 17PX;
+            }
+            H1{font: 24px arial; color:rgb(19, 119, 133); margin-bottom: 20px;}
+
+        </style>
+
+        <div id="corpo">
+            <div id="topo">
+                <header>
+                    <nav>
+                        <a href="#">home</a> |
+                        <a href="#">sobre</a>
+                    </nav>
+                </header>
+            </div>
+            <div id="conteudo">
+                {{area dinamica}}
+            </div>
+        </div>
+    </body>
+
+</head>
+
+
+</html>
+
